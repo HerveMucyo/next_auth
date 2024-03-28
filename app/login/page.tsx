@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link"
-export default function page() {
+export default async function page() {
   return (
     <div>
       <h1 className="text-center text-black-500 dark:text-black-400 font-bold">Login</h1>
